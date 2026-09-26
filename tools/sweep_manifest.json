@@ -1,0 +1,97 @@
+{
+  "head": "c4n180",
+  "window_bits": 32,
+  "channels": [
+    {
+      "channel": 0,
+      "name": "ctl_both_buses",
+      "bit": null,
+      "window_map": "00000000000000000000000000000010",
+      "split": false,
+      "role": "mapping",
+      "must_eject": true,
+      "previously": null,
+      "comment": "code 01: CONTROL: every position of both buses. Every ink this head has must appear. If one is missing here it is missing everywhere, and no row below can be read as 'that block is unplumbed'",
+      "code": "01",
+      "window": null
+    },
+    {
+      "channel": 1,
+      "name": "g0_b0",
+      "bit": null,
+      "window_map": "00000000000000000000000000000010",
+      "split": false,
+      "role": "mapping",
+      "must_eject": null,
+      "previously": null,
+      "comment": "code 01: bus (frame group) 0, positions 0-59 ONLY. Write down WHICH INK comes out: that is the whole measurement",
+      "code": "01",
+      "window": null
+    },
+    {
+      "channel": 2,
+      "name": "g0_b1",
+      "bit": null,
+      "window_map": "00000000000000000000000000000010",
+      "split": false,
+      "role": "mapping",
+      "must_eject": null,
+      "previously": null,
+      "comment": "code 01: bus (frame group) 0, positions 60-119 ONLY. Write down WHICH INK comes out: that is the whole measurement",
+      "code": "01",
+      "window": null
+    },
+    {
+      "channel": 3,
+      "name": "g0_b2",
+      "bit": null,
+      "window_map": "00000000000000000000000000000010",
+      "split": false,
+      "role": "mapping",
+      "must_eject": null,
+      "previously": null,
+      "comment": "code 01: bus (frame group) 0, positions 120-179 ONLY. Write down WHICH INK comes out: that is the whole measurement",
+      "code": "01",
+      "window": null
+    },
+    {
+      "channel": 4,
+      "name": "g1_b0",
+      "bit": null,
+      "window_map": "00000000000000000000000000000010",
+      "split": false,
+      "role": "mapping",
+      "must_eject": null,
+      "previously": null,
+      "comment": "code 01: bus (frame group) 1, positions 0-59 ONLY. Write down WHICH INK comes out: that is the whole measurement",
+      "code": "01",
+      "window": null
+    },
+    {
+      "channel": 5,
+      "name": "g1_b1",
+      "bit": null,
+      "window_map": "00000000000000000000000000000010",
+      "split": false,
+      "role": "mapping",
+      "must_eject": null,
+      "previously": null,
+      "comment": "code 01: bus (frame group) 1, positions 60-119 ONLY. Write down WHICH INK comes out: that is the whole measurement",
+      "code": "01",
+      "window": null
+    },
+    {
+      "channel": 6,
+      "name": "g1_b2",
+      "bit": null,
+      "window_map": "00000000000000000000000000000010",
+      "split": false,
+      "role": "mapping",
+      "must_eject": null,
+      "previously": null,
+      "comment": "code 01: bus (frame group) 1, positions 120-179 ONLY. Write down WHICH INK comes out: that is the whole measurement",
+      "code": "01",
+      "window": null
+    }
+  ]
+}

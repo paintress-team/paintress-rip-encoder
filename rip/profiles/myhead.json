@@ -1,0 +1,40 @@
+{
+  "media": "myhead",
+  "dot_gain": {
+    "enabled": true,
+    "C": 0.5,
+    "M": 0.5,
+    "Y": 0.375,
+    "K": 0.625
+  },
+  "channel_scales": {
+    "C": 0.55,
+    "M": 0.8,
+    "Y": 0.45,
+    "K": 0.55,
+    "LC": 0.55,
+    "LM": 0.8
+  },
+  "global_scale": 1.0,
+  "max_total_ink": 0.9,
+  "dpi_compensation": {
+    "enabled": true,
+    "reference_dpi": 360,
+    "power": 2.0
+  },
+  "black_generation": 1.0,
+  "black_start": 0.0,
+  "drop_diameter_um": null,
+  "ink_map": [
+    "LM",
+    "LC",
+    "K",
+    "Y",
+    "C",
+    "M"
+  ],
+  "dead_nozzles": {},
+  "shingle_passes": 1,
+  "band_overlap": 0,
+  "dpi_curves": {}
+}

@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+
+# Working folders for images, payloads and jobs; see the README.
+rip/input/
+rip/output/
+rip/output_channels/
+encoder/input/
+encoder/output/
